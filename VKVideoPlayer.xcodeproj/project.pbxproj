@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12907384268C4DA98E365BB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F1449F68D8472AB23A44B7 /* libPods.a */; };
 		12ADC8DF1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ADC8DD1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m */; };
 		1B1848CC18F3D7B70020F2EE /* VKVideoPlayerCaption.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1848CB18F3D7B70020F2EE /* VKVideoPlayerCaption.m */; };
 		1B1848CF18F3D8CB0020F2EE /* VKVideoPlayerExternalMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1848CE18F3D8CB0020F2EE /* VKVideoPlayerExternalMonitor.m */; };
@@ -84,6 +85,7 @@
 /* Begin PBXFileReference section */
 		12ADC8DD1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKVideoPlayerCaptionVTT.m; sourceTree = "<group>"; };
 		12ADC8DE1DABA1AE00E58008 /* VKVideoPlayerCaptionVTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKVideoPlayerCaptionVTT.h; sourceTree = "<group>"; };
+		14F1449F68D8472AB23A44B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		150BEB98AFEA4FF199BA4AA6 /* libPods-VKVideoPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKVideoPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1848CA18F3D7B70020F2EE /* VKVideoPlayerCaption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKVideoPlayerCaption.h; path = Classes/ios/VKVideoPlayerCaption.h; sourceTree = SOURCE_ROOT; };
 		1B1848CB18F3D7B70020F2EE /* VKVideoPlayerCaption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKVideoPlayerCaption.m; path = Classes/ios/VKVideoPlayerCaption.m; sourceTree = SOURCE_ROOT; };
@@ -157,8 +159,10 @@
 		1BB9D35818FBFEF300568286 /* testCaptionTop.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; lineEnding = 2; path = testCaptionTop.srt; sourceTree = "<group>"; };
 		1BF1CCD91903A8660006FBC8 /* DemoRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRootViewController.h; sourceTree = "<group>"; };
 		1BF1CCDA1903A8660006FBC8 /* DemoRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRootViewController.m; sourceTree = "<group>"; };
+		95C1FFB45565AC5E0DF042CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A0E6BE2DABFD07EF5799E756 /* Pods-VKVideoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVideoPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1D13B7470C2E5F01C8FCC17 /* Pods-VKVideoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKVideoPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8BE0CD25C3C24CCFFAA824A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E900CF1B2823890057C484 /* SampleVideo_640x360_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_640x360_1mb.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +174,7 @@
 				1BB6ADBD18EE626A00767FA3 /* CoreGraphics.framework in Frameworks */,
 				1BB6ADBF18EE626A00767FA3 /* UIKit.framework in Frameworks */,
 				1BB6ADBB18EE626A00767FA3 /* Foundation.framework in Frameworks */,
+				12907384268C4DA98E365BB7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 				1BB6ADBC18EE626A00767FA3 /* CoreGraphics.framework */,
 				1BB6ADBE18EE626A00767FA3 /* UIKit.framework */,
 				1BB6ADD318EE626A00767FA3 /* XCTest.framework */,
+				14F1449F68D8472AB23A44B7 /* libPods.a */,
 				150BEB98AFEA4FF199BA4AA6 /* libPods-VKVideoPlayerTests.a */,
 			);
 			name = Frameworks;
@@ -405,6 +411,8 @@
 		D3E90C058B2B136A5BB65DE3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D8BE0CD25C3C24CCFFAA824A /* Pods.debug.xcconfig */,
+				95C1FFB45565AC5E0DF042CF /* Pods.release.xcconfig */,
 				A0E6BE2DABFD07EF5799E756 /* Pods-VKVideoPlayerTests.debug.xcconfig */,
 				D1D13B7470C2E5F01C8FCC17 /* Pods-VKVideoPlayerTests.release.xcconfig */,
 			);
@@ -418,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BB6ADE318EE626A00767FA3 /* Build configuration list for PBXNativeTarget "VKVideoPlayer" */;
 			buildPhases = (
+				C40B611D35304B928326E2C8 /* Check Pods Manifest.lock */,
 				1BB6ADB318EE626A00767FA3 /* Sources */,
 				1BB6ADB418EE626A00767FA3 /* Frameworks */,
 				1BB6ADB518EE626A00767FA3 /* Resources */,
+				D97F52C7FDBD4A659DE0FAEA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -435,13 +445,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BB6ADE618EE626A00767FA3 /* Build configuration list for PBXNativeTarget "VKVideoPlayerTests" */;
 			buildPhases = (
-				D8BBE33A97F8FF7788AC4901 /* [CP] Check Pods Manifest.lock */,
 				336AC2A4F86C445AA1127722 /* Check Pods Manifest.lock */,
 				1BB6ADCE18EE626A00767FA3 /* Sources */,
 				1BB6ADCF18EE626A00767FA3 /* Frameworks */,
 				1BB6ADD018EE626A00767FA3 /* Resources */,
 				25739C77B1BB40EC93E86E3C /* Copy Pods Resources */,
-				634C628A4644E19D44D8437C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -460,7 +468,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = VK;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Viki Inc.";
 				TargetAttributes = {
 					1BB6ADD118EE626A00767FA3 = {
@@ -470,11 +478,10 @@
 			};
 			buildConfigurationList = 1BB6ADB218EE626A00767FA3 /* Build configuration list for PBXProject "VKVideoPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 1BB6ADAE18EE626A00767FA3;
 			productRefGroup = 1BB6ADB818EE626A00767FA3 /* Products */;
@@ -572,66 +579,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		634C628A4644E19D44D8437C /* [CP] Copy Pods Resources */ = {
+		C40B611D35304B928326E2C8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/DTCoreText/Resources.bundle",
-				"${PODS_ROOT}/VKFoundation/Assets/VKFoundation_themes.plist",
-				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_bg.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_bg@2x.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_cross.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKPickerButton_cross@2x.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_max.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_max@2x.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_min.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_min@2x.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_thumb.png",
-				"${PODS_ROOT}/VKFoundation/Assets/VKScrubber_thumb@2x.png",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKFoundation_themes.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKPickerButton_bg.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKPickerButton_bg@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKPickerButton_cross.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKPickerButton_cross@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_max.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_max@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_min.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_min@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_thumb.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VKScrubber_thumb@2x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VKVideoPlayerTests/Pods-VKVideoPlayerTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D8BBE33A97F8FF7788AC4901 /* [CP] Check Pods Manifest.lock */ = {
+		D97F52C7FDBD4A659DE0FAEA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VKVideoPlayerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -703,38 +678,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -747,7 +707,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -759,44 +719,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -806,16 +752,15 @@
 		};
 		1BB6ADE418EE626A00767FA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BE0CD25C3C24CCFFAA824A /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VKVideoPlayer/VKVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VKVideoPlayer/VKVideoPlayer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.viki-ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
 				WRAPPER_EXTENSION = app;
@@ -824,16 +769,15 @@
 		};
 		1BB6ADE518EE626A00767FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C1FFB45565AC5E0DF042CF /* Pods.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VKVideoPlayer/VKVideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VKVideoPlayer/VKVideoPlayer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.viki-ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
 				WRAPPER_EXTENSION = app;
@@ -844,6 +788,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0E6BE2DABFD07EF5799E756 /* Pods-VKVideoPlayerTests.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKVideoPlayer.app/VKVideoPlayer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -858,7 +803,6 @@
 				);
 				INFOPLIST_FILE = "VKVideoPlayerTests/VKVideoPlayerTests-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.viki-ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
@@ -870,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D1D13B7470C2E5F01C8FCC17 /* Pods-VKVideoPlayerTests.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VKVideoPlayer.app/VKVideoPlayer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -879,7 +824,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VKVideoPlayerTests/VKVideoPlayerTests-Prefix.pch";
 				INFOPLIST_FILE = "VKVideoPlayerTests/VKVideoPlayerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viki.viki-ios.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Classes/\"";
